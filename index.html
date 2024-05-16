@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+
+<body>
+
+    <body>
+        <section>
+            <div class="icon-container">
+                <div class="icon-box about" data-modal="about">
+                    <i class="fa-regular fa-address-card"></i>
+                </div>
+                <div class="icon-box projects" data-modal="projects">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+                <div class="icon-box testimonial" data-modal="testimonial">
+                    <i class="fa-solid fa-users-rectangle"></i>
+                </div>
+                <div class="icon-box contact" data-modal="contact">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+            </div>
+        </section>
+
+        <div class="popup" id="about">
+            <div class="popup-container">
+                <div class="popup-header">
+                    <div class="button-container">
+                        <button class="close-btn circle-btn red">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                        <button class="close-btn circle-btn yellow">
+                            <i class="fa-solid fa-window-minimize"></i>
+                        </button>
+                        <button class="maximize-btn circle-btn green">
+                            <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="popup-body about-container">
+                    <div class="img-frame">
+                        <img src="images/profile-1.jpg"
+                            alt="" />
+                    </div>
+                    <div class="hero-content">
+                        <h1>John Paul Cu</h1>
+                        <p>
+                            Hello! My name is John Paul Cu, a 19-year-old passionate about coding and web development from Jugan Consolacion Cebu. 
+                            With a strong talent for creating and developing websites using various programming languages, I am dedicated to becoming a proficient full stack developer.
+                             In my free time, I enjoy playing online games, all of which inspire and fuel my creativity in the world of coding.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup" id="projects">
+            <div class="popup-container">
+                <div class="popup-header">
+                    <div class="button-container">
+                        <button class="close-btn circle-btn red">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                        <button class="close-btn circle-btn yellow">
+                            <i class="fa-solid fa-window-minimize"></i>
+                        </button>
+                        <button class="maximize-btn circle-btn green">
+                            <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="popup-body">
+                    <div class="skill-list">
+                        <h1>Skills</h1>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Java Script</li>
+                            <li>React JS</li>
+                            <li>Node Js</li>
+                            <li>Bootstrap</li>
+                            <li>Java</li>
+                            <li>MongoDB</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-container">
+                        <h1>Projects</h1>
+                        <div class="all-projects">
+                            <div class="project-box">
+                                <img src="images/project-1.jpg"
+                                    alt="" />
+                                <div class="overlay">
+                                    <h3>First Portfolio</h3>
+                                    <button class="more-btn">
+                                        <span>Learn More</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="project-box">
+                                <img src="images/project-2.jpg"
+                                    alt="" />
+                                <div class="overlay">
+                                    <h3>Newton Raphson Method Calculator</h3>
+                                    <button class="more-btn">
+                                        <span>Learn More</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="project-box">
+                                <img src="images/project-4.jpg"
+                                    alt="" />
+                                <div class="overlay">
+                                    <h3>Student Registration System</h3>
+                                    <button class="more-btn">
+                                        <span>Learn More</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="project-box">
+                                <img src="images/project-3.jpg"
+                                    alt="" />
+                                <div class="overlay">
+                                    <h3>Snake and Ladders</h3>
+                                    <button class="more-btn">
+                                        <span>Learn More</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup" id="testimonial">
+            <div class="popup-container">
+                <div class="popup-header">
+                    <div class="button-container">
+                        <button class="close-btn circle-btn red">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                        <button class="close-btn circle-btn yellow">
+                            <i class="fa-solid fa-window-minimize"></i>
+                        </button>
+                        <button class="maximize-btn circle-btn green">
+                            <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="popup-body testimonial-container">
+                    <h1>Certificates</h1>
+
+                    <div class="slider-container">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="user-info">
+                                        <img src="images/certificate-3.jpg"
+                                            alt="" />
+                                        <h2>Coding Bootcamp</h2>
+                                    </div>
+                                    <p>
+                                        Zuitt Coding Bootcamp was my first experience with HTML, CSS, and Bootstrap. 
+                                        I completed it on August 5, 2023. 
+                                        This bootcamp provided me with a solid foundation in web development and enhanced my skills significantly.
+                                    </p>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="user-info">
+                                        <img src="images/Certificate-1.jpg"
+                                            alt="" />
+                                        <h2>Problem Solving
+                                            basic
+                                        </h2>
+                                    </div>
+                                    <p>
+                                        Problem-solving basics in HackerRank are a great practice for an aspiring full-stack developer because these tests 
+                                        allow you to practice your problem-solving skills and help you improve your adaptability in any situation.
+                                        I finished this test in at least 1 hour and 30 minutes, with 5 questions answered and 2 questions not completed.
+                                    </p>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="user-info">
+                                        <img src="images/Certificate-2.jpg"
+                                            alt="" />
+                                        <h2>Problem Solving 
+                                            Expert
+                                        </h2>
+                                    </div>
+                                    <p>
+                                        Problem-solving Expert in HackerRank is similar to the basics but much harder. 
+                                        These tests will test your skills and help you improve your adaptability in any situation. 
+                                        I finished this test in 1 hour and completed all the questions.
+                                    </p>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="user-info">
+                                        <img src="images/Certificate-4.jpg"
+                                            alt="" />
+                                        <h2>Go Study</h2>
+                                    </div>
+                                    <p>
+                                        Go Study AI FACIAL RECOGNATION TECHNOLOGY TRAINING PARTICIPATION last october 29, 2022.
+                                    </p>
+                                </div>
+
+                                <div class="swiper-slide swiper-no-swiping">
+                                    <div class="user-info">
+                                        <img src="images/Certificate-5.jpg"
+                                            alt="" />
+                                        <h2>React Training</h2>
+                                    </div>
+                                    <p>
+                                        My React Js Training Certificate is still ongoing, and I am actively honing my skills in MERN stack. 
+                                        I enjoy in every challenges of learning new technologies and looks forward to applying my knowledge in future projects and make more improvements in my portfolio.
+                                    </p>
+                                </div>
+                            </div>
+                            <ul class="control" id="custom-control">
+                                <li class="prev">
+                                    <ion-icon class="arrow" name="caret-back-outline"></ion-icon>
+                                </li>
+                                <li class="next">
+                                    <ion-icon class="arrow" name="caret-forward-outline"></ion-icon>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup" id="contact">
+            <div class="popup-container">
+                <div class="popup-header">
+                    <div class="button-container">
+                        <button class="close-btn circle-btn red">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                        <button class="close-btn circle-btn yellow">
+                            <i class="fa-solid fa-window-minimize"></i>
+                        </button>
+                        <button class="maximize-btn circle-btn green">
+                            <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="popup-body contact-container">
+                    <h1>Contact</h1>
+                    <p>Hi there, you can contact with me via email.</p>
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name.." />
+
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="Your mail.." />
+
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.."
+                            style="height: 200px"></textarea>
+
+                        <button class="submit-btn more-btn" type="submit">
+                            <span>Submit <i class="fa-solid fa-paper-plane"></i></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
