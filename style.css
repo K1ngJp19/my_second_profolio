@@ -42,14 +42,26 @@ h1 {
     display: none;
 }
 
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 105%;
+    height: 120%;
+    z-index: -1;
+    object-fit: cover;
+    background-image: url('images/killua-hunter-x-hunter-moewalls-com.jpg'); /* Use the image path here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
 html,
 body {
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: url(images/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 section {
